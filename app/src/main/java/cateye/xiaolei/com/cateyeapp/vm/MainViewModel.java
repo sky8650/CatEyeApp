@@ -7,6 +7,9 @@ import me.goldze.mvvmhabit.base.BaseViewModel;
 
 public class MainViewModel   extends BaseViewModel {
 
+
+
+
     public MainViewModel(@NonNull Application application) {
         super(application);
     }

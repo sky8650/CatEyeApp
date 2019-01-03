@@ -22,6 +22,12 @@ public class MainActivity extends BaseCusActivity<ActivityMainBinding,MainViewMo
     }
 
     @Override
+    public void initData(Bundle savedInstanceState) {
+        super.initData(savedInstanceState);
+
+    }
+
+    @Override
     public MainViewModel initViewModel() {
         //View持有ViewModel的引用，如果没有特殊业务处理，这个方法可以不重写
         return ViewModelProviders.of(this).get(MainViewModel.class);
